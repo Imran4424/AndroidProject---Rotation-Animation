@@ -37,9 +37,12 @@ public class MainActivity extends AppCompatActivity {
 
     void rotateScaleDown() {
         /*
-         * there is a difference between scaleX and scaleByX, rotationX and rotationByX
+         * there is a difference between scaleX and scaleByX; rotationX and rotationByX
+         *
          * scaleX set a fix scale value for the object
-         * here, scaleX and scaleY setting
+         * here, scaleX and scaleY setting the image size by scaling down to 0.5
+         * but scaleByX and scaleByY always divide the current image size by the parameter
+         *
          *
          * */
         arshadImage.animate().rotation(3600).scaleX(0.5f).scaleY(0.5f).setDuration(2000);
