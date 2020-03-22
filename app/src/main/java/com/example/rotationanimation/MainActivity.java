@@ -28,8 +28,10 @@ public class MainActivity extends AppCompatActivity {
     public void buttonPressed(View v) {
         if (isScaleUp) {
             rotateScaleDown();
+            isScaleUp = false;
         } else {
             rotateScaleUp();
+            isScaleUp = true;
         }
     }
 
