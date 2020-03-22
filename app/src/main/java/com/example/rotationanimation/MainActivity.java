@@ -13,5 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         arshadImage = (ImageView) findViewById(R.id.imageViewArshad);
+
+        // setting X position
+        arshadImage.setX(-2000);
+
     }
 }
