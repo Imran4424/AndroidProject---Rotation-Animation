@@ -32,6 +32,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void rotateScaleUp() {
-        arshadImage.animate().rotation(-3600).scaleX(2).scaleY(2).
+        arshadImage.animate().rotation(-3600).scaleX(2).scaleY(2).setDuration(2000);
     }
 }
