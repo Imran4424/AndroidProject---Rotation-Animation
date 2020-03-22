@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         arshadImage = (ImageView) findViewById(R.id.imageViewArshad);
         fullScreenButton = (Button) findViewById(R.id.buttonFullScreen);
+        isScaleUp = true;
 
         // setting X position
         arshadImage.setX(-2000);
