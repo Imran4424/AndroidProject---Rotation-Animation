@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         if (isScaleUp) {
             rotateScaleDown();
         } else {
-            
+            rotateScaleUp();
         }
     }
 
