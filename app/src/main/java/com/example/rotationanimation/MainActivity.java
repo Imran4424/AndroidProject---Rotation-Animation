@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
         // setting X position
         arshadImage.setX(-2000);
-        arshadImage.animate().translationXBy(2000).rotation(360).setDuration(2000);
+        arshadImage.animate().translationXBy(2000).rotation(36).setDuration(2000);
     }
 }
