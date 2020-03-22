@@ -26,13 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonPressed(View v) {
-        if (isScaleUp) {
-            rotateScaleDown();
-            isScaleUp = true;
-        } else {
-            rotateScaleUp();
-            isScaleUp = true;
-        }
+        arshadImage.animate().rotation(3600).scaleX(0.5f).scaleY(0.5f).setDuration(2000);
     }
 
     void rotateScaleDown() {
