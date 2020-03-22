@@ -36,10 +36,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void rotateScaleDown() {
-        arshadImage.animate().rotation(3600).scaleX(0.1f).scaleY(0.1f).setDuration(2000);
+        /*
+         * there is a difference between scaleX and scaleByX, rotationX and rotationByX
+         * scaleX set a fix scale value for the object
+         * here, scaleX and scaleY setting
+         *
+         * */
+        arshadImage.animate().rotation(3600).scaleX(0.5f).scaleY(0.5f).setDuration(2000);
     }
 
     void rotateScaleUp() {
-        arshadImage.animate().rotation(-3600).scaleX(2.0f).scaleY(2.0f).setDuration(2000);
+        arshadImage.animate().rotation(-3600).scaleX(1).scaleY(1).setDuration(2000);
     }
 }
