@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
          *
          * same goes for rotationX and rotationY which number of rotation is fixed in any direction
          * but rotationByX and rotationByY
-         * always rotate given number of degrees in the given
+         * always rotate given number of degrees in the given direction
          * */
         arshadImage.animate().rotation(3600).scaleX(0.5f).scaleY(0.5f).setDuration(2000);
     }
