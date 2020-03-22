@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void buttonPressed(View v) {
         if (isScaleUp) {
             rotateScaleDown();
-            isScaleUp = true;
+            isScaleUp = false;
         } else {
             rotateScaleUp();
             isScaleUp = true;
@@ -40,6 +40,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void rotateScaleUp() {
-        arshadImage.animate().rotation(-3600).scaleX(2).scaleY(2).setDuration(2000);
+        arshadImage.animate().rotation(-3600).scaleX(2.0f).scaleY(2.0f).setDuration(2000);
     }
 }
