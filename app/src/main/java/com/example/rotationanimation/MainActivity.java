@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
          * but scaleByX and scaleByY always divide the current image size by the parameter and scale to the new result
          *
          * same goes for rotationX and rotationY which number of rotation is fixed in any direction
-         * but
+         * but rotationByX and rotationByY
+         * always rotate given number of degrees in
          * */
         arshadImage.animate().rotation(3600).scaleX(0.5f).scaleY(0.5f).setDuration(2000);
     }
